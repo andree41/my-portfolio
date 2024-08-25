@@ -1,0 +1,25 @@
+html,
+body {
+    font-family: "Heebo", sans-serif;
+}
+
+.blog-item h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--dark);
+}
+
+.blog-item .date {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--dark);
+}
+
+.blog-item .category {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--light);
+}
