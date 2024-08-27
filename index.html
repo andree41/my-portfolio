@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Andree's</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,31 +12,151 @@
 </head>
 
 <body>
-    <h1>Blog</h1>
-    <article class="blog-item">
-        <header>
-            <h3 class="recent">UI Interactions of the week</h3>
-        </header>
-        <div><span class="date">12 Feb 2022</span> | <span class="category">Express, Handlebars</span> </div>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-            velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-    </article>
-    <article class="blog-item">
-        <header>
-            <h3 class="recent">UI Interactions of the week</h3>
-        </header>
-        <div><span class="date">12 Feb 2022</span> | <span class="category">Express, Handlebars</span> </div>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-            velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-    </article>
-    <article class="blog-item">
-        <header>
-            <h3 class="recent">UI Interactions of the week</h3>
-        </header>
-        <div><span class="date">12 Feb 2022</span> | <span class="category">Express, Handlebars</span> </div>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-            velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-    </article>
+    <header>
+        <nav>
+            <ul class="desktop-link">
+                <li>
+                    <a href="index.html">Works</a>
+                </li>
+                <li>
+                    <a href="index.html">Blog</a>
+                </li>
+                <li>
+                    <a href="index.html">Contact</a>
+                </li>
+            </ul>
+            <div class="menu-button">
+                <img src="img\menu.png" alt="menu">
+            </div>
+            <div class="mobile-nav">
+                <div class="close-menu-button">
+                    <svg viewBox="0 0 10 10" width="1em" height="1em" stroke="#fff" stroke-width="2">
+                        <line x1="1" y1="1" x2="9" y2="9" />
+                        <line x1="9" y1="1" x2="1" y2="9" />
+                    </svg>
+                </div>
+                <ul class="mobile-link">
+                    <li>
+                        <a href="index.html">Works</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero-inner">
+            <div class="col-left">
+                <h1>Hi, I am John,</h1>
+                <h1>Creative Technologist </h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="action-button">Download Resume</div>
+            </div>
+            <div class-="col-right">
+                <img src="img\profile pic.jpg" alt="profile-pic" , width="243" , height="243">
+            </div>
+        </div>
+    </section>
+    <section class="post-section">
+        <div class="post-section-inner">
+            <div class="post-header">
+                <h2>Recent Posts</h2>
+                <a href="index.html">View All</a>
+            </div>
+            <div class="post">
+                <article class="post-item">
+                    <header>
+                        <h3 class="blog-item-header">Making a design system from scratch</h3>
+                    </header>
+                    <div class="meta"><span>12 Feb 2022</span> | <span>Design, Pattern</span></div>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </article>
+                <article class="post-item">
+                    <header>
+                        <h3 class="blog-item-header">Creating pixel perfect icons in Figma</h3>
+                    </header>
+                    <div class="meta"><span>12 Feb 2022</span> | <span>Figma, Icon Design</span></div>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="feature-section">
+        <div class="feature-section-inner">
+            <div class="fs-header">
+                <h2>Feature works</h2>
+            </div>
+            <div class="fs-list">
+                <div class="fs-item">
+                    <div class="fs-item-left">
+                        <img src="img\fs1.png" alt="fs1">
+                    </div>
+                    <div class="fs-item-right">
+                        <h3>Designing Dashboards</h3>
+                        <div class="item-meta">
+                            <div class="badge">2021</div>
+                            <div class="category">Dashboard</div>
+                        </div>
+                        <div class="description">Amet minim mollit non deserunt ullamco est
+                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                </div>
+                <div class="fs-item">
+                    <div class="fs-item-left">
+                        <img src="img\fs2.png" alt="fs2">
+                    </div>
+                    <div class="fs-item-right">
+                        <h3>Vibrant Portraits of 2020</h3>
+                        <div class="item-meta">
+                            <div class="badge">2018</div>
+                            <div class="category">Illustration</div>
+                        </div>
+                        <div class="description">Amet minim mollit non deserunt ullamco est
+                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="fs-item">
+                    <div class="fs-item-left">
+                        <img src="img\fs3.png" alt="fs3">
+                    </div>
+                    <div class="fs-item-right">
+                        <h3>36 Days of Malayalam type</h3>
+                        <div class="item-meta">
+                            <div class="badge">2018</div>
+                            <div class="category">Typography</div>
+                        </div>
+                        <div class="description">Amet minim mollit non deserunt ullamco est
+                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="socials">
+            <img src="img\fb.png" alt="fb">
+            <img src="img\insta.png" alt="ig">
+            <img src="img\Group.png" alt="x">
+            <img src="img/Linkedin.png" alt="link">
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2020 All rights reserved </p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="scripts\main.js"></script>
 </body>
 
 </html>
